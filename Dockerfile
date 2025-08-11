@@ -7,7 +7,8 @@ FROM node:20-alpine AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-RUN npm run build
+# Generate Prisma client before building Next.js
+RUN npx prisma generate && npm run build
 
 FROM node:20-alpine AS runner
 WORKDIR /app
