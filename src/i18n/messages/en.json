@@ -1,0 +1,29 @@
+{
+  "app": {
+    "title": "Plotter & Statistics",
+    "login": "Login",
+    "register": "Create account",
+    "logout": "Logout",
+    "projects": "Projects",
+    "newProject": "New project",
+    "save": "Save"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "name": "Name"
+  },
+  "projects": {
+    "name": "Project name",
+    "description": "Description",
+    "noProjects": "No projects yet",
+    "create": "Create project"
+  },
+  "chart": {
+    "label": "Label",
+    "value": "Value"
+  }
+}
+
+
+

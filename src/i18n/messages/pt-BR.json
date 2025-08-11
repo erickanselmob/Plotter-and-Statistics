@@ -1,0 +1,29 @@
+{
+  "app": {
+    "title": "Plotador & Estatísticas",
+    "login": "Entrar",
+    "register": "Criar conta",
+    "logout": "Sair",
+    "projects": "Projetos",
+    "newProject": "Novo projeto",
+    "save": "Salvar"
+  },
+  "auth": {
+    "email": "E-mail",
+    "password": "Senha",
+    "name": "Nome"
+  },
+  "projects": {
+    "name": "Nome do projeto",
+    "description": "Descrição",
+    "noProjects": "Nenhum projeto ainda",
+    "create": "Criar projeto"
+  },
+  "chart": {
+    "label": "Rótulo",
+    "value": "Valor"
+  }
+}
+
+
+
